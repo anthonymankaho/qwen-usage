@@ -1,0 +1,110 @@
+{
+	"code":"200",
+	"data":{
+		"DataV2":{
+			"ret":[
+				"SUCCESS::接口调用成功"
+			],
+			"data":{
+				"msg":"Success.",
+				"code":"SUCCESS",
+				"data":{
+					"instanceCode":"sfm_tokenplansolo_public_intl-sg-2kk50190j02",
+					"specCode":"essential",
+					"remainingDays":82,
+					"startTime":1791896484000,
+					"endTime":1799856000000,
+					"autoRenewFlag":false,
+					"status":"VALID"
+				},
+				"requestId":"f1720e99-edfa-91a3-9da7-adfd25641457",
+				"success":true
+			}
+		},
+		"success":true,
+		"httpStatus":200,
+		"errorCode":"",
+		"api":"zeldaHttp.apikeyMgr./tokenplan/personal/api/v2/subscription",
+		"errorMsg":""
+	},
+	"httpStatusCode":"200",
+	"requestId":"f1720e99-edfa-41a3-9da7-adfd25641457",
+	"successResponse":true
+}
+-----
+{
+	"code":"200",
+	"data":{
+		"DataV2":{
+			"ret":[
+				"SUCCESS::接口调用成功"
+			],
+			"data":{
+				"msg":"Success.",
+				"code":"SUCCESS",
+				"data":{
+					"per1MonthPercentage":0.1606259683110157,
+					"per1MonthResetTime":1794585600000
+				},
+				"requestId":"01802515-0c79-9c0f-b748-26dc02fb8718",
+				"success":true
+			}
+		},
+		"success":true,
+		"httpStatus":200,
+		"errorCode":"",
+		"api":"zeldaHttp.apikeyMgr./tokenplan/personal/api/v2/usage",
+		"errorMsg":""
+	},
+	"httpStatusCode":"200",
+	"requestId":"01802515-0c79-4c0f-b748-26dc02fb8718",
+	"successResponse":true
+}
+-----
+{
+	"code":"200",
+	"data":{
+		"DataV2":{
+			"ret":[
+				"SUCCESS::接口调用成功"
+			],
+			"data":{
+				"msg":"Success.",
+				"code":"SUCCESS",
+				"data":{
+					"standard":{
+						"five_hour":3000.0,
+						"monthly":45000.0
+					},
+					"addon_quota":{
+						"extrabundle":20000.0
+					},
+					"lite":{
+						"five_hour":700.0,
+						"monthly":11500.0
+					},
+					"pro":{
+						"five_hour":12000.0,
+						"monthly":180000.0
+					},
+					"essential":{
+						"five_hour":1800.0,
+						"monthly":25500.0
+					}
+				},
+				"requestId":"c5f67838-0986-9bff-98fd-fb89ad143805",
+				"success":true
+			}
+		},
+		"success":true,
+		"httpStatus":200,
+		"errorCode":"",
+		"api":"zeldaHttp.apikeyMgr./tokenplan/personal/api/v2/quota-config",
+		"errorMsg":""
+	},
+	"httpStatusCode":"200",
+	"requestId":"c5f67838-0986-4bff-98fd-fb89ad143805",
+	"successResponse":true
+}
+-----
+{"requestId":"01A166AE-4DA8-37AA-871E-F360FE0C5264","code":"200","message":null,"action":null,"apiName":null,"data":{"Message":"Successful!","RequestId":"01A166AE-4DA8-37AA-871E-F360FE0C5264","Data":{"TotalCount":1,"PageNum":1,"PageSize":20,"InstanceList":[{"Status":"Normal","RenewalDuration":3,"EndTime":"2027-01-13T16:00:00Z","InstanceID":"sfm_tokenplansolo_public_intl-sg-2kk50190j02","ProductCode":"sfm","CreateTime":"2026-10-13T13:01:24Z","ProductType":"sfm_tokenplansolo_public_intl","RenewStatus":"AutoRenewal","SubscriptionType":"Subscription","OwnerId":5651289572051240,"RenewalDurationUnit":"M","Region":"ap-southeast-1","Seller":"26888","SubStatus":"Normal"}]},"Code":"Success","Success":true},"httpStatusCode":"200","accessDeniedDetail":null,"extendedCode":null,"successResponse":true}
